@@ -1,0 +1,13 @@
+GET http://localhost:8080 HTTP/1.1
+###
+GET http://localhost:8080/dora HTTP/1.1
+###
+GET http://localhost:8080/ale HTTP/1.1
+###
+GET http://localhost:8080/contacts HTTP/1.1
+###
+GET http://localhost:8080/contacts/678c667532e27bc733bae105 HTTP/1.1
+###
+GET http://localhost:8080/contacts/678c668032e27bc733bae106 HTTP/1.1
+###
+GET http://localhost:8080/contacts/678c668d32e27bc733bae107 HTTP/1.1
