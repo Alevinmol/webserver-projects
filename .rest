@@ -11,3 +11,30 @@ GET http://localhost:8080/contacts/678c667532e27bc733bae105 HTTP/1.1
 GET http://localhost:8080/contacts/678c668032e27bc733bae106 HTTP/1.1
 ###
 GET http://localhost:8080/contacts/678c668d32e27bc733bae107 HTTP/1.1
+
+### Create contact
+POST http://localhost:8080/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Ale",
+    "lastName":"Garcia",
+    "email":"caritasale@test.com",
+    "favoriteColor":"Red",
+    "birthday":"01/01/95"
+}
+
+### Update contact
+PUT http://localhost:8080/contacts/679ada1bf1ca31d2ea91112c HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Ale",
+    "lastName":"Garcia",
+    "email":"caritasale@test.com",
+    "favoriteColor":"Red",
+    "birthday":"01/01/92"
+}
+
+### Delete contact
+DELETE http://localhost:8080/contacts/679ada1bf1ca31d2ea91112c HTTP/1.1
