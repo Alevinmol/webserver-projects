@@ -6,5 +6,6 @@ router.get('/', myController.awesomeFunction)
 router.get('/dora', myController.dora)
 router.get('/ale', myController.ale)
 router.use('/contacts', require('./contacts'))
+router.use('/', require('./swagger'));
 
 module.exports = router;

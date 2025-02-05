@@ -25,7 +25,7 @@ Content-Type: application/json
 }
 
 ### Update contact
-PUT https://alevinmol-cse341-winter24.onrender.com/contacts/679addda250cb81f6b0a0959 HTTP/1.1
+PUT https://alevinmol-cse341-winter24.onrender.com/contacts/679aed074c380eb8d94707cf HTTP/1.1
 Content-Type: application/json
 
 {
@@ -37,4 +37,4 @@ Content-Type: application/json
 }
 
 ### Delete contact
-DELETE https://alevinmol-cse341-winter24.onrender.com/contacts/679addda250cb81f6b0a0959 HTTP/1.1
+DELETE https://alevinmol-cse341-winter24.onrender.com/contacts/679aed074c380eb8d94707cf HTTP/1.1
